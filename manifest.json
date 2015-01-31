@@ -1,0 +1,15 @@
+{
+  "name": "Chrome App Name",
+  "description": "Chrome App Description",
+  "version": "1.0.0.0",
+  "manifest_version": 2,
+  "permissions": [ "webview" ],
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
